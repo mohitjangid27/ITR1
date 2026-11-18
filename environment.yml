@@ -1,0 +1,15 @@
+name: heartapp
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - joblib
+  - pip
+  - pip:
+      - streamlit
